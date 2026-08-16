@@ -1,6 +1,13 @@
 # UZVideoTV
 
-UZVideoTV 是一款基于 UZ 播放器使用方式开发、使用 SwiftUI 编写的 Apple TV（tvOS）客户端。它兼容 UZ 原生分享代码，可导入用户自己的视频源，并提供跨源搜索、推荐浏览、收藏、播放历史和剧集播放等功能。
+UZVideoTV 是由 [jaxbot131](https://github.com/jaxbot131) 面向 Apple TV（tvOS）重新编写的第三方客户端，使用 SwiftUI 开发。UZ 播放器原项目及原始设计由 [YYDS678](https://github.com/YYDS678) 开发和维护。本项目兼容 UZ 原生分享代码，可导入用户自己的视频源，并提供跨源搜索、推荐浏览、收藏、播放历史和剧集播放等功能。
+
+## 原项目与致谢
+
+- UZ 播放器原项目：[YYDS678/uzVideo](https://github.com/YYDS678/uzVideo)
+- UZ 播放器原作者：[YYDS678](https://github.com/YYDS678)
+- 本仓库是针对 Apple tvOS 重新编写的第三方版本，并非原作者发布的官方 tvOS 客户端。
+- 感谢原作者对 UZ 播放器、分享代码使用方式和相关生态的开发与维护。
 
 ## 功能
 
@@ -51,4 +58,4 @@ UZVideoTV 可配合 [ATVLoadly Remote Registry](https://github.com/jaxbot131/ATV
 
 ## 开源许可
 
-本项目使用 [MIT License](LICENSE) 开源。
+本仓库中由 jaxbot131 重新编写的 Apple tvOS 客户端代码使用 [MIT License](LICENSE) 开源。UZ 播放器原项目、名称、设计以及任何属于原作者或第三方的内容仍归各自权利人所有，MIT License 不对这些内容重新授权。详情见 [NOTICE](NOTICE)。

@@ -1,0 +1,14 @@
+UZVideoTV Attribution Notice
+
+UZVideoTV is a third-party Apple tvOS client rewritten by jaxbot131.
+
+The original UZ Video project and its original design are developed and
+maintained by YYDS678:
+
+https://github.com/YYDS678/uzVideo
+
+This repository is not an official tvOS release from the original author.
+The MIT License in this repository applies only to the Apple tvOS client code
+rewritten by jaxbot131. It does not relicense the original UZ Video project,
+its name or design, or any content owned by the original author or third
+parties. Those materials remain subject to their respective owners' rights.
