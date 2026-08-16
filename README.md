@@ -1,12 +1,10 @@
 # UZVideoTV
 
-UZVideoTV 是由 [jaxbot131](https://github.com/jaxbot131) 面向 Apple TV（tvOS）开发的 UZ 生态客户端，使用 SwiftUI 针对电视端交互与播放体验重新实现。UZ 播放器原项目由 [YYDS678](https://github.com/YYDS678) 开发和维护。本项目兼容 UZ 原生分享代码，可导入用户自己的视频源，并提供跨源搜索、推荐浏览、收藏、播放历史和剧集播放等功能。
-
 ## 原项目与致谢
 
 - UZ 播放器原项目：[YYDS678/uzVideo](https://github.com/YYDS678/uzVideo)
 - UZ 播放器原作者：[YYDS678](https://github.com/YYDS678)
-- Apple TV/tvOS 版本由 [jaxbot131](https://github.com/jaxbot131) 开发和适配。
+
 - 感谢原作者对 UZ 播放器、分享代码使用方式和相关生态的开发与维护。
 
 ## 功能
