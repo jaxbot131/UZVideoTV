@@ -1,0 +1,19 @@
+# Xcode user data and build output
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Archives, signed applications, and signing material
+*.ipa
+*.xcarchive
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+
+# macOS metadata
+.DS_Store
+

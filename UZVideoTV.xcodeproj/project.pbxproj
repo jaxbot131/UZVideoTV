@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A11C0A11C0A11C0A11C0A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B22C0B22C0B22C0B22C0B22 /* Assets.xcassets */; };
+		0E66FD0C14EA18723741A00A /* PlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FCE7075A5B69C7499C95AE /* PlayerScreen.swift */; };
+		177C8FF9273445F56AB30CE5 /* UZAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2CEFD11A7131D4A8BEDFA /* UZAPI.swift */; };
+		6C63A47097EEF09F1F2DE524 /* UZVideoTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4739BF4A449E33AA50488D48 /* UZVideoTVApp.swift */; };
+		70A9EB6CEC41DBE4CE38AF5F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519DC693A4251AE67413161A /* Models.swift */; };
+		85DCB54FEB74AFF485A7942D /* UZVideoTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAC9E54642065BFA92AABFA /* UZVideoTVUITests.swift */; };
+		8A32D48517332E3A98A4B862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDBC682FAD2B2641FEBB4F /* ContentView.swift */; };
+		9F1476BD21344A9EE6AFD4B4 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517430BDF2DCC6B82C0C8426 /* AppStore.swift */; };
+		B68AF0AE35811EB425BFEFE8 /* SecondaryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC1AD0315FF71BB688D6810 /* SecondaryViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7F38955C8A18A3759809BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5A6677479A1951113B4322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284433EFFC5750B8D51F5C70;
+			remoteInfo = UZVideoTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B22C0B22C0B22C0B22C0B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EDBC682FAD2B2641FEBB4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4739BF4A449E33AA50488D48 /* UZVideoTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZVideoTVApp.swift; sourceTree = "<group>"; };
+		4CAC9E54642065BFA92AABFA /* UZVideoTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZVideoTVUITests.swift; sourceTree = "<group>"; };
+		4CC1AD0315FF71BB688D6810 /* SecondaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViews.swift; sourceTree = "<group>"; };
+		51215FB98B4486AE78BC1443 /* UZVideoTVUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = UZVideoTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517430BDF2DCC6B82C0C8426 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		519DC693A4251AE67413161A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		76CA1212F9C99E3F7B9971AD /* UZVideoTV.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = UZVideoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FCE7075A5B69C7499C95AE /* PlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreen.swift; sourceTree = "<group>"; };
+		E8F2CEFD11A7131D4A8BEDFA /* UZAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UZAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		33CFB23E6625D1BC05DBBF37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76CA1212F9C99E3F7B9971AD /* UZVideoTV.app */,
+				51215FB98B4486AE78BC1443 /* UZVideoTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEBD4AECC16D7C965CDF1AB /* UZVideoTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAC9E54642065BFA92AABFA /* UZVideoTVUITests.swift */,
+			);
+			path = UZVideoTVUITests;
+			sourceTree = "<group>";
+		};
+		6D41DA09B996192ED8114144 = {
+			isa = PBXGroup;
+			children = (
+				E2E7BD64B9E3B960DF88E99C /* UZVideoTV */,
+				3FEBD4AECC16D7C965CDF1AB /* UZVideoTVUITests */,
+				33CFB23E6625D1BC05DBBF37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2E7BD64B9E3B960DF88E99C /* UZVideoTV */ = {
+			isa = PBXGroup;
+			children = (
+				0B22C0B22C0B22C0B22C0B22 /* Assets.xcassets */,
+				517430BDF2DCC6B82C0C8426 /* AppStore.swift */,
+				15EDBC682FAD2B2641FEBB4F /* ContentView.swift */,
+				519DC693A4251AE67413161A /* Models.swift */,
+				D6FCE7075A5B69C7499C95AE /* PlayerScreen.swift */,
+				4CC1AD0315FF71BB688D6810 /* SecondaryViews.swift */,
+				E8F2CEFD11A7131D4A8BEDFA /* UZAPI.swift */,
+				4739BF4A449E33AA50488D48 /* UZVideoTVApp.swift */,
+			);
+			path = UZVideoTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284433EFFC5750B8D51F5C70 /* UZVideoTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CADCA1A444EF9AC4B3474D4 /* Build configuration list for PBXNativeTarget "UZVideoTV" */;
+			buildPhases = (
+				7A21B68CDAEF7CBA5B1AAE89 /* Sources */,
+				0C33C0C33C0C33C0C33C0C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UZVideoTV;
+			packageProductDependencies = (
+			);
+			productName = UZVideoTV;
+			productReference = 76CA1212F9C99E3F7B9971AD /* UZVideoTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D531A9C2BA70ADF94FECD4F4 /* UZVideoTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BC383FA07AC71497DD0EE7 /* Build configuration list for PBXNativeTarget "UZVideoTVUITests" */;
+			buildPhases = (
+				A041A89CB22E4E0F6FA3F6AA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3081649D7C8BCA4783C406 /* PBXTargetDependency */,
+			);
+			name = UZVideoTVUITests;
+			packageProductDependencies = (
+			);
+			productName = UZVideoTVUITests;
+			productReference = 51215FB98B4486AE78BC1443 /* UZVideoTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5A6677479A1951113B4322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					284433EFFC5750B8D51F5C70 = {
+						ProvisioningStyle = Automatic;
+					};
+					D531A9C2BA70ADF94FECD4F4 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 284433EFFC5750B8D51F5C70;
+					};
+				};
+			};
+			buildConfigurationList = BB71EE07E0A6C89F94D0A431 /* Build configuration list for PBXProject "UZVideoTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6D41DA09B996192ED8114144;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 33CFB23E6625D1BC05DBBF37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284433EFFC5750B8D51F5C70 /* UZVideoTV */,
+				D531A9C2BA70ADF94FECD4F4 /* UZVideoTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C33C0C33C0C33C0C33C0C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A11C0A11C0A11C0A11C0A11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A21B68CDAEF7CBA5B1AAE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1476BD21344A9EE6AFD4B4 /* AppStore.swift in Sources */,
+				8A32D48517332E3A98A4B862 /* ContentView.swift in Sources */,
+				70A9EB6CEC41DBE4CE38AF5F /* Models.swift in Sources */,
+				0E66FD0C14EA18723741A00A /* PlayerScreen.swift in Sources */,
+				B68AF0AE35811EB425BFEFE8 /* SecondaryViews.swift in Sources */,
+				177C8FF9273445F56AB30CE5 /* UZAPI.swift in Sources */,
+				6C63A47097EEF09F1F2DE524 /* UZVideoTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A041A89CB22E4E0F6FA3F6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DCB54FEB74AFF485A7942D /* UZVideoTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3081649D7C8BCA4783C406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284433EFFC5750B8D51F5C70 /* UZVideoTV */;
+			targetProxy = B7F38955C8A18A3759809BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CB7DFD1263168582703BCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		2153C69087CB32492823CC81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzvideo.tv.uitests;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = UZVideoTV;
+			};
+			name = Debug;
+		};
+		8817A79D3DC2A9FD57486BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzvideo.tv.uitests;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = UZVideoTV;
+			};
+			name = Release;
+		};
+		9463D699A626B0D809B2C0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		9B6C098E5F367B2E94F8D8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "uz影视TV";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzvideo.tv;
+				PRODUCT_NAME = "uz影视TV";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		F3D43F31C83EF471D0234088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "uz影视TV";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsArbitraryLoads = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzvideo.tv;
+				PRODUCT_NAME = "uz影视TV";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CADCA1A444EF9AC4B3474D4 /* Build configuration list for PBXNativeTarget "UZVideoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D43F31C83EF471D0234088 /* Debug */,
+				9B6C098E5F367B2E94F8D8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		20BC383FA07AC71497DD0EE7 /* Build configuration list for PBXNativeTarget "UZVideoTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2153C69087CB32492823CC81 /* Debug */,
+				8817A79D3DC2A9FD57486BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB71EE07E0A6C89F94D0A431 /* Build configuration list for PBXProject "UZVideoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9463D699A626B0D809B2C0DF /* Debug */,
+				1CB7DFD1263168582703BCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5A6677479A1951113B4322 /* Project object */;
+}
